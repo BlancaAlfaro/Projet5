@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "projet5"
+version = "0.1.0"
+description = ""
+authors = ["BlancaAlfaro <blanca.alfaro.merino@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+seaborn = "^0.13.0"
+scikit-learn = "^1.3.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
