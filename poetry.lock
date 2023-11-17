@@ -58,6 +58,22 @@ files = [
 ]
 
 [[package]]
+name = "bkmeans"
+version = "1.2"
+description = "The breathing k-means algorithm"
+optional = false
+python-versions = ">=3.7.0"
+files = [
+    {file = "bkmeans-1.2-py3-none-any.whl", hash = "sha256:ea713e8c2812a3896b98e7889c36a01235c346f381bbea00665b29e250bd50e3"},
+    {file = "bkmeans-1.2.tar.gz", hash = "sha256:87d49c484f2302910b0efbb7f5fcda464440d7faef609523cbb8728e39821839"},
+]
+
+[package.dependencies]
+numpy = "*"
+scikit-learn = ">=0.23.2"
+scipy = "*"
+
+[[package]]
 name = "cffi"
 version = "1.16.0"
 description = "Foreign Function Interface for Python calling C code."
@@ -1805,4 +1821,4 @@ scipy = ">=1.0.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "d9a70c4e74cb10399d51132ed57c344f9e323123bfce8bb61fc96931f737fff4"
+content-hash = "1e74e8e846aad9803c232a6cc576b19c5bd44e227106b6ca64d4bee8a4a5e3f1"

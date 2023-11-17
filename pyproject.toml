@@ -13,6 +13,7 @@ missingno = "^0.5.2"
 plotly = "^5.18.0"
 nbformat = "^5.9.2"
 yellowbrick = "^1.5"
+bkmeans = "^1.2"
 
 
 [tool.poetry.group.dev.dependencies]
